@@ -1,9 +1,36 @@
 .main-header {
-  background-color: rgb(105, 105, 105);
-  padding-left: 15vh;
-  h1 {
-    margin: 0 0;
-    padding: 0.3em 0;
-    color: #fff;
-  }
+  background-color: rgb(170, 168, 168);
+  margin: 0 auto;
+  padding: 0.2em 1em;
+}
+
+.title-header {
+  width: 80%;
+  padding-left: 5vh;
+  color: #fff;
+  margin: 0.4em auto;
+  max-width: 1280px;
+}
+
+.slider-header {
+  width: 80%;
+  height: 25vh;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.carousel {
+  height: 20vh;
+}
+.slide{
+  height: 20vh;
+}
+
+.carousel-inner {
+  height: 20vh;
+  border-radius: 15px;
+}
+
+.carousel-control {
+  border-radius: 15px;
 }

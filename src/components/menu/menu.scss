@@ -1,10 +1,14 @@
 .main-menu {
   width: 100%;
   justify-content: space-between;
+  background-color: rgb(94, 91, 91);
+  padding: 1em 2em;
+  margin: 0 auto;
 }
 
 .nav-menu {
   margin: 0 auto;
+  max-width: 1440px;
   justify-content: space-between;
 }
 
@@ -18,20 +22,20 @@
   font-size: 1.2em;
   cursor: pointer;
   text-decoration: none;
-  color: rgb(117, 112, 112);
+  color: rgb(218, 218, 218);
   transition: all 1s ease-in-out;
   &:hover {
     font-size: 1.3em;
     border-radius: 7px;
     border: 2px solid green;
-    background-color: #ccc;
+    background-color: rgb(98, 88, 231);
   }
 }
 
 .search-menu {
   float: right;
   width: auto;
-  margin-right: 10vw;
+  margin-right: 2vw;
 }
 
 .search-menu input {
