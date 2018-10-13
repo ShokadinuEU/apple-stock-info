@@ -1,7 +1,12 @@
 {
-  "name": "apple_info",
+  "name": "apple_stock_info",
   "version": "0.1.0",
   "private": true,
+  "author": "Timotei Dumitru (dumitru.timy@gmail.com), https://github.com/ShokadinuEU",
+  "license": "ISC",
+  "description": "Apple stock info app",
+  "homepage": "https://shokadinueu.github.io/apple-stock-info",
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "axios": "^0.18.0",
     "json-loader": "^0.5.7",
@@ -15,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,5 +32,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "install": "^0.12.1"
+  }
 }
