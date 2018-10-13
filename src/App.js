@@ -46,34 +46,34 @@ class App extends Component {
       <div className="App">
       {/* map trough json file to get the data we want */}
         {data.map(item =>
-            <div id={item.market_value}>
-              <Menu />
-              <Header name={item.long_name} />
-              <Panels 
-                nameShort={item.short_name}
-                ticker={item.ticker}
-                price={item.price}
-                repo_no={item.repo_no}
-                indices={item.indices}
-                home_page={item.home_page}
-                ric={item.ric}
-                sic={item.sic}
-                isin={item.isin}
-                sectorCode={item.sector_code_name}
-              />
-              <Content 
-                shortName={item.short_name}
-                founded={item.ipo}
-                financial={item.financial_summary}
-                equity={item.equity_composition}
-                liOne={item.indices[0]}
-                liTwo={item.indices[1]}
-                liThree={item.indices[2]}
-                liFour={item.indices[3]}
-              />
-              <Footer />
-            </div>
-          )}
+          <div id={item.market_value}>
+            <Menu />
+            <Header name={item.long_name} />
+            <Panels 
+              nameShort={item.short_name}
+              ticker={item.ticker}
+              price={item.price}
+              repo_no={item.repo_no}
+              indices={item.indices}
+              home_page={item.home_page}
+              ric={item.ric}
+              sic={item.sic}
+              isin={item.isin}
+              sectorCode={item.sector_code_name}
+            />
+            <Content 
+              shortName={item.short_name}
+              founded={item.ipo}
+              financial={item.financial_summary}
+              equity={item.equity_composition}
+              liOne={item.indices[0]}
+              liTwo={item.indices[1]}
+              liThree={item.indices[2]}
+              liFour={item.indices[3]}
+            />
+            <Footer />
+          </div>
+        )}
       </div>
     )
   }
