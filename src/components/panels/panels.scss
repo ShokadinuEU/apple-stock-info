@@ -20,6 +20,23 @@
   }
 }
 
+// The minimum requirement of the task
+.check {
+  color: rgb(14, 173, 14);
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-top: 1em;
+}
+
+.check:first-child {
+  font-size: 1.2em;
+}
+
+.check:nth-child(2) {
+  padding-top: 0;
+}
+///////////////////////////////////////
+
 .image-panel {
   width: 20%;
   height: 100%;
