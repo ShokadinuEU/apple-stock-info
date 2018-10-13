@@ -32,6 +32,7 @@
 .info-panel {
   width: 75%;
   float: right;
+  display: inline-grid;
   .header-panel {
     display: block;
     float: right;
@@ -40,7 +41,7 @@
   
   .text-panel {
     display: inline-block;
-    float: right
+    float: right;
   }
   
   button {

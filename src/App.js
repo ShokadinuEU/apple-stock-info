@@ -50,7 +50,9 @@ class App extends Component {
               <Menu />
               <Header name={item.long_name} />
               <Panels 
+                nameShort={item.short_name}
                 ticker={item.ticker}
+                price={item.price}
                 repo_no={item.repo_no}
                 indices={item.indices}
                 home_page={item.home_page}
