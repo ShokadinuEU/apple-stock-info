@@ -7,10 +7,10 @@ const Menu = () => {
       <div className="nav-menu">
         <div className="link-menu">
           <a href="/" className="item-menu">Home</a>
-          <a href="/about" className="item-menu">About us</a>
-          <a href="/products" className="item-menu">Products</a>
-          <a href="/services" className="item-menu">Services</a>
-          <a href="/contacts" className="item-menu">Contact</a>
+          <a href="/" className="item-menu">About us</a>
+          <a href="/" className="item-menu">Products</a>
+          <a href="/" className="item-menu">Services</a>
+          <a href="/" className="item-menu">Contact</a>
         </div>
         <div className="search-menu">
           <input placeholder="look for more.." type="text"/>

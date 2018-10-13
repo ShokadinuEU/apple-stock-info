@@ -44,11 +44,29 @@ class App extends Component {
     return (
       <div className="App">
         {data.map(item =>
-            <div>
+            <div id={item.market_value}>
               <Menu />
               <Header name={item.long_name} />
-              <Panels />
-              <Content />
+              <Panels 
+                ticker={item.ticker}
+                repo_no={item.repo_no}
+                indices={item.indices}
+                home_page={item.home_page}
+                ric={item.ric}
+                sic={item.sic}
+                isin={item.isin}
+                sectorCode={item.sector_code_name}
+              />
+              <Content 
+                shortName={item.short_name}
+                founded={item.ipo}
+                financial={item.financial_summary}
+                equity={item.equity_composition}
+                liOne={item.indices[0]}
+                liTwo={item.indices[1]}
+                liThree={item.indices[2]}
+                liFour={item.indices[3]}
+              />
               <Footer />
             </div>
           )}
