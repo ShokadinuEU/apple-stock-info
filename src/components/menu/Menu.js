@@ -14,7 +14,7 @@ const Menu = () => {
         </div>
         <div className="search-menu">
           <input placeholder="look for more.." type="text"/>
-          <button>Search</button>
+          <button><i class="fas fa-search"></i> Search</button>
         </div>
       </div>
     </menu>
