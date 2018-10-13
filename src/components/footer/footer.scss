@@ -25,6 +25,12 @@
   text-decoration: none;
   color: rgb(187, 216, 108);
   font-weight: 600;
+  &hover {
+    a {
+      color: #ccc;
+      text-decoration: none;
+    }
+  }
 }
 
 @media (min-width: 1281px) {

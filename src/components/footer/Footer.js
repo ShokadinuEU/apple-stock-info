@@ -24,8 +24,6 @@ const Footer = () => {
           <h4>Support</h4>
           <span>Terms & Conditions</span>
           <span>FAQ</span>
-          <span>Payments</span>
-          <span>Refounds</span>
           <span>Track Order</span>
           <span>Services</span>
         </div>

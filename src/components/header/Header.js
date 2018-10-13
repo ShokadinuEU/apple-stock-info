@@ -1,11 +1,12 @@
-import React from 'react'
-import './header.scss'
-import {Carousel} from 'react-bootstrap'
-
-const Header = () => {
-  return (
-    <header className="main-header">
-      <h1 className="title-header">Apple Inc.</h1>
+  import React, { Component } from 'react'
+  import './header.scss'
+  import {Carousel} from 'react-bootstrap'
+  
+ class Header extends Component {
+    render() {
+    return (
+      <header className="main-header">
+      <h1 className="title-header">{this.props.name}</h1>
       <div className="slider-header">
         <Carousel>
           <Carousel.Item>
@@ -20,7 +21,8 @@ const Header = () => {
         </Carousel>
       </div>
     </header>
-  )
+    )
+  }
 }
 
 export default Header

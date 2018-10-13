@@ -26,9 +26,9 @@
   transition: all 1s ease-in-out;
   &:hover {
     font-size: 1.3em;
-    border-radius: 10px;
-    border: 2px solid green;
-    background-color: rgb(98, 88, 231);
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(83, 194, 83);
+    // background-color: rgb(98, 88, 231);
     text-decoration: none;
     color: cyan;
     padding: 0.2em 0.6em;

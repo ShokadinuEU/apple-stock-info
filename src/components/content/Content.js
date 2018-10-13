@@ -18,7 +18,7 @@ const Content = () => {
         </ul>
       </div>
       <div className="panels-content">
-        <div className="join-content">Join US Now!&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-alt-circle-right fa-1x"></i></div>
+        <div className="join-content">Join US Now!&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-alt-circle-right fa-1x"></i></div>
         <div className="news-content-panel">
           <h3>News</h3>
           <a href="/">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </a>
