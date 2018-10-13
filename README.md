@@ -3,7 +3,7 @@
 #->For this project i used ReactJS, CSS, HTML, Bootstrap, FontAwesome, Postman.<br />
 #->Photos are free from <a href="https://www.pexels.com/" target="_blank">Pexel.com</a><br />
 <br /><br />
-![project-today](https://user-images.githubusercontent.com/35012587/46907680-227e6280-cf0e-11e8-909c-c5af6fd76700.jpg)
+![apple-stock](https://user-images.githubusercontent.com/35012587/46910210-66865d00-cf38-11e8-8028-8473c5372880.jpg)
 <br /><br />
 #The process of building page was: <br/>
 #=> Postman to fetch data from <a href="https://api.stockflare.com/search" target="_blank">Stockflare</a> using PUT method /search endpoint
