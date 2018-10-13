@@ -5,6 +5,7 @@ class Content extends Component {
   render() {
     return (
       <content>
+        {/* left side of the content section */}
         <div className="main-content">
           <div className="text-content">
             <h2>{this.props.shortName} {this.props.founded}</h2>
@@ -17,6 +18,7 @@ class Content extends Component {
             <li>{this.props.liFour}</li>
           </ul>
         </div>
+        {/* right side of content section */}
         <div className="panels-content">
           <div className="join-content">Join US Now!&nbsp;&nbsp;&nbsp;&nbsp;<i className="fas fa-arrow-alt-circle-right fa-1x"></i></div>
           <div className="news-content-panel">

@@ -5,6 +5,7 @@
  class Header extends Component {
     render() {
     return (
+      // the section with image slider, made using bootstrap library
       <header className="main-header">
       <h1 className="title-header">{this.props.name}</h1>
       <div className="slider-header">

@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 class Panels extends Component {
   render() {
     return (
+      // the three panels beneath image slider
       <article className="panel-main">
       <div className="panel-container">
         <div className="panel-block">

@@ -3,6 +3,7 @@ import './menu.scss'
 
 const Menu = () => {
   return (
+    // menu with destionation to main page for now
     <menu className="main-menu">
       <div className="nav-menu">
         <div className="link-menu">

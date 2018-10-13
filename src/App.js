@@ -18,6 +18,7 @@ class App extends Component {
     };
   }
 
+  // fetch date from internal json file using axios
   componentDidMount(){
     this.setState({ isLoading: true });
     axios.get('./response.json')
@@ -33,7 +34,7 @@ class App extends Component {
     
     render() {
       const { data, isLoading, error } = this.state
-      console.log(data.short_name)
+    // check for the errors in case data is failing to load
     if (error) {
       return <p>{error.message}</p>;
     }
@@ -43,6 +44,7 @@ class App extends Component {
     }
     return (
       <div className="App">
+      {/* map trough json file to get the data we want */}
         {data.map(item =>
             <div id={item.market_value}>
               <Menu />
