@@ -56,8 +56,8 @@ class App extends Component {
     return (
       <div className="App">
       {/* map trough json file to get the data we want */}
-        {data.map(info =>
-          <div id={info.eps}>
+        {data.map((info, i) =>
+          <div key={i}>
             <Menu />
             <Header name={info.long_name} />
             <Panels 
