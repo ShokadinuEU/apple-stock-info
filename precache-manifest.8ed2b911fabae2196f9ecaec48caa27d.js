@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/apple-stock-info/static/js/runtime~main.20a9d080.js"
   },
   {
-    "revision": "d8b83ea6d8ef1842fb23",
-    "url": "/apple-stock-info/static/js/main.d8b83ea6.chunk.js"
+    "revision": "0e50088d43c5d12e8a68",
+    "url": "/apple-stock-info/static/js/main.0e50088d.chunk.js"
   },
   {
     "revision": "e097cbb0e5ec7dc21d4f",
     "url": "/apple-stock-info/static/js/1.e097cbb0.chunk.js"
   },
   {
-    "revision": "d8b83ea6d8ef1842fb23",
+    "revision": "0e50088d43c5d12e8a68",
     "url": "/apple-stock-info/static/css/main.e46b57ac.chunk.css"
   },
   {
-    "revision": "9b81c9872ec461f9a41ee3a74493c463",
+    "revision": "bb601cd76df0fc2dd44b5078a0a9c929",
     "url": "/apple-stock-info/index.html"
   }
 ];
