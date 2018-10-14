@@ -20,8 +20,19 @@ class App extends Component {
 
   // fetch date from internal json file using axios
   componentDidMount(){
-    this.setState({ isLoading: true });
-    axios.get('./response.json')
+    var data = JSON.stringify({
+      "conditions": {
+        "_id": "6c8227be-6855-11e4-98bf-294717b2347c"
+      },
+      "select": "_all"
+    })
+    this.setState({ isLoading: true })
+    axios.put('https://api.stockflare.com/search', data, {
+      header: {
+        'Content-Type': 'application/json',
+        'cache-control': 'no-cache'
+      }
+    })
       .then(result => this.setState({
         data: result.data,
         isLoading: false 
