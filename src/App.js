@@ -42,7 +42,7 @@ class App extends Component {
         isLoading: false 
       }));
     }
-    
+
     render() {
       const { data, isLoading, error } = this.state
     // check for the errors in case data is failing to load
@@ -56,32 +56,31 @@ class App extends Component {
     return (
       <div className="App">
       {/* map trough json file to get the data we want */}
-        {data.map(item =>
-          <div id={item.market_value}>
+        {data.map(info =>
+          <div id={info.eps}>
             <Menu />
-            <Header name={item.long_name} />
+            <Header name={info.long_name} />
             <Panels 
-              nameShort={item.short_name}
-              ticker={item.ticker}
-              price={item.price}
-              repo_no={item.repo_no}
-              indices={item.indices}
-              home_page={item.home_page}
-              ric={item.ric}
-              sic={item.sic}
-              isin={item.isin}
-              sectorCode={item.sector_code_name}
+              nameShort={info.short_name}
+              marketValue={info.market_value}
+              enterpriseValue={info.enterprise_value}
+              priceChange={info.price_change}
+              ticker={info.ticker}
+              price={info.price}
+              isin={info.isin}
+              sectorCode={info.sector_code_name}
             />
             <Content 
-              shortName={item.short_name}
-              founded={item.ipo}
-              financial={item.financial_summary}
-              equity={item.equity_composition}
-              liOne={item.indices[0]}
-              liTwo={item.indices[1]}
-              liThree={item.indices[2]}
-              liFour={item.indices[3]}
-            />
+              brand={info.short_name}
+              founded={info.ipo}
+              description={info.description}
+              equity={info.equity_composition}
+              liOne={info.indices[0]}
+              liTwo={info.indices[1]}
+              liThree={info.indices[2]}
+              liFour={info.indices[3]}
+              financial={info.financial_summary}
+              />
             <Footer />
           </div>
         )}

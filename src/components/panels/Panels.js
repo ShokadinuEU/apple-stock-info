@@ -10,8 +10,11 @@ class Panels extends Component {
         <div className="panel-block">
           <i className="image-panel fas fa-globe-americas fa-3x"></i>
           <div className="info-panel">
-            <h3 className="header-panel">{this.props.ticker}</h3>
-            <p className="text-panel">{this.props.indices}</p>
+            <h3 className="header-panel">{this.props.nameShort}</h3>
+            <p className="text-panel">
+            Market Value: {this.props.marketValue} <br />
+            Enterprise Value : {this.props.enterpriseValue} <br />
+            Price Change : {this.props.priceChange}</p>
             <button>More here ></button>
           </div>
         </div>
@@ -19,16 +22,19 @@ class Panels extends Component {
           <i className="image-panel fas fa-cogs fa-3x"></i>
           <div className="info-panel">
             <h3 className="header-panel check">Name:  {this.props.nameShort} ✓</h3>
-            <p className="text-panel check">Ticker:  {this.props.ticker} ✓<br /> Price:  {this.props.price} ✓<br /></p>
+            <p className="text-panel check">
+            Ticker:  {this.props.ticker} ✓<br /> 
+            Price:  {this.props.price} ✓<br /></p>
             <button>More here ></button>
           </div>
         </div>
         <div className="panel-block">
           <i className="image-panel far fa-lightbulb fa-3x"></i>
           <div className="info-panel">
-            <h3 className="header-panel">{this.props.repo_no}</h3>
-            <p className="text-panel">{this.props.isin} <br />
-            {this.props.sectorCode}<br />{this.props.home_page}</p>
+            <h3 className="header-panel">{this.props.nameShort}</h3>
+            <p className="text-panel">
+            Isin: {this.props.isin} <br />
+            Sector Code: {this.props.sectorCode}</p>
             <button>More here ></button>
           </div>
         </div>
