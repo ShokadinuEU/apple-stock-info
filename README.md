@@ -6,7 +6,7 @@
 ![apple-stock](https://user-images.githubusercontent.com/35012587/46910210-66865d00-cf38-11e8-8028-8473c5372880.jpg)
 <br /><br />
 #The process of building page was: <br/>
-#=> Postman to fetch data from <a href="https://api.stockflare.com/search" target="_blank">Stockflare</a> using PUT method /search endpoint
+#=> Postman to fetch data from <a href="https://api.stockflare.com/search" target="_blank">Stockflare</a> using PUT method on /search endpoint
 then store into a json file <br />
 #=> The structure of the page was created with ReactJS <br />
 #=> The image slider was made using a react library called react-bootstrap <br />
