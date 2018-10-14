@@ -1,13 +1,13 @@
 {
-  "main.css": "/apple-stock-info/static/css/main.e46b57ac.chunk.css",
-  "main.js": "/apple-stock-info/static/js/main.d2f7e80a.chunk.js",
-  "main.js.map": "/apple-stock-info/static/js/main.d2f7e80a.chunk.js.map",
+  "main.css": "/apple-stock-info/static/css/main.ca604e01.chunk.css",
+  "main.js": "/apple-stock-info/static/js/main.5e13a068.chunk.js",
+  "main.js.map": "/apple-stock-info/static/js/main.5e13a068.chunk.js.map",
   "static/js/1.e097cbb0.chunk.js": "/apple-stock-info/static/js/1.e097cbb0.chunk.js",
   "static/js/1.e097cbb0.chunk.js.map": "/apple-stock-info/static/js/1.e097cbb0.chunk.js.map",
   "runtime~main.js": "/apple-stock-info/static/js/runtime~main.20a9d080.js",
   "runtime~main.js.map": "/apple-stock-info/static/js/runtime~main.20a9d080.js.map",
-  "static/css/main.e46b57ac.chunk.css.map": "/apple-stock-info/static/css/main.e46b57ac.chunk.css.map",
+  "static/css/main.ca604e01.chunk.css.map": "/apple-stock-info/static/css/main.ca604e01.chunk.css.map",
   "index.html": "/apple-stock-info/index.html",
-  "precache-manifest.a504e124d8f33217466ce3f768713967.js": "/apple-stock-info/precache-manifest.a504e124d8f33217466ce3f768713967.js",
+  "precache-manifest.c14c380e35aa941546a4b3124ab0dd83.js": "/apple-stock-info/precache-manifest.c14c380e35aa941546a4b3124ab0dd83.js",
   "service-worker.js": "/apple-stock-info/service-worker.js"
 }

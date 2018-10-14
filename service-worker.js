@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/apple-stock-info/precache-manifest.a504e124d8f33217466ce3f768713967.js"
+  "/apple-stock-info/precache-manifest.c14c380e35aa941546a4b3124ab0dd83.js"
 );
 
 workbox.clientsClaim();
